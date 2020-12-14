@@ -1,0 +1,51 @@
+.select {
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_title {
+    font-family: var(--SegoeRegular);
+    font-size: 14px;
+    color: var(--colorTitleSelect);
+    margin-left: 15px;
+
+  }
+
+  &_img {
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+    height: 100%;
+    width: 100%;
+    &_btn {
+      max-width: 10px;
+      max-height: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+::v-deep {
+  .md-field.md-theme-default {
+    &:after {
+      display: none;
+    }
+  }
+
+  input {
+    margin-left: 15px;
+  }
+
+  svg {
+    display: none;
+  }
+  .md-field {
+    max-width: 160px;
+  }
+}

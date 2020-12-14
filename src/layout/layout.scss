@@ -1,0 +1,26 @@
+::v-deep {
+  .md-layout-item {
+    margin: 16px 0;
+  }
+
+  .md-layout-item .histogram {
+    background-color: var(--mainBgCollor);
+  }
+
+  .md-toolbar.md-theme-default.md-primary {
+    background-color: var(--mainBgCollor);
+    box-shadow: var(--boxShadowPannel);
+  }
+
+  .md-content.md-app-content.md-flex.md-theme-default {
+    background-color: var(--bgBodyCollor);
+  }
+  .md-app {
+    height: 100vh;
+    box-shadow: var(--boxShadowPannel);
+
+  }
+  .md-app-content .md-card {
+    margin: 0;
+  }
+}

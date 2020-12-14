@@ -1,0 +1,25 @@
+.gl-title {
+    @include fluid-size-md(font-size, 16px, 24px);
+    font-family: var(--SegoeBold);
+    color: var(--mainTextColor);
+}
+
+.gl-li{
+    @include fluid-size-md(font-size, 16px, 22px);
+    font-family: var(--SegoeRegular);
+    color: var(--mainTextColor);
+}
+
+.gl-title-block {
+    @include fluid-size-md(font-size, 10px, 14px);
+    font-family: var(--SegoeRegular);
+    color: var(--textBlockTitle);
+}
+
+.box-element {
+    @include fluid-size-md(font-size, 10px, 12px);
+    box-sizing: border-box;
+    background: var(--mainBgCollor);
+    border: var(--borderBox);
+    border-radius: var(--borderRaius);
+}

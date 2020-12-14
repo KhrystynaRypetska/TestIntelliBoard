@@ -1,0 +1,24 @@
+{
+  "navigation": [
+    {
+      "name": "Dashboard",
+      "link": "/dashboard",
+      "id": 1
+    },
+    {
+      "name": "Analytics",
+      "link": "/analytics",
+      "id": 2
+    },
+    {
+      "name": "Forecast",
+      "link": "/forecast",
+      "id": 3
+    },
+    {
+      "name": "Metrics",
+      "link": "/metrics",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+.histogram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  max-height: 286px;
+  height: 100%;
+  .title {
+    display: flex;
+    align-self: flex-start;
+  }
+  &_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 35px;
+    &_item {
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  &_list {
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 17px;
+      .title,
+      .number {
+        font-family: var(--SegoeBold);
+        font-size: 14px;
+        color: var(--mainTextColor);
+      }
+      .text{
+        font-family: var(--SegoeRegular);
+        font-size: 11px;
+        color: var(--textGray);
+      }
+      .button {
+        padding: 3px 8px;
+        background-color: var(--buttonBar);
+        border-radius: 30px;
+      }
+    }
+  }
+  .blueCollor {
+    background-color: var(--blueCollor);
+  }
+  .blueLightCollor {
+    background-color: var(--blueLightCollor);
+  }
+  .orangCollor {
+    background-color: var(--orangCollor);
+  }
+  .greenCollor {
+    background-color: var(--greenCollor);
+  }
+  .pinckCollor {
+    background-color: var(--pinckCollor);
+  }
+}
+
+::v-deep {
+
+}
